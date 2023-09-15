@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $mensaje = $_POST["mensaje"];
 
-    $destinatario = "tu_correo@example.com"; // Reemplaza con tu dirección de correo electrónico
+    $destinatario = "atila@utp.edu.co"; // Reemplaza con tu dirección de correo electrónico
     $asunto = "Mensaje de contacto de $nombre";
 
     $contenido = "Nombre: $nombre\n";
